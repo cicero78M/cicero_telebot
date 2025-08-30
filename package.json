@@ -1,0 +1,24 @@
+{
+  "name": "cicero_telebot",
+  "version": "1.0.0",
+  "description": "Telegram bot replacement for Cicero_V2 backend",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node -e \"console.log('No tests specified')\""
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "cicero"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.11.0",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "telegraf": "^4.16.3"
+  }
+}
